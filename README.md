@@ -47,3 +47,11 @@ return ((points[1]-points[3])/(points[0]-points[2])).toFixed(0);;
 } else return 'undefined'; 
 }
 ````
+## Grasshopper - Basic Function Fixer
+https://www.codewars.com/kata/56200d610758762fb0000002/solutions/javascript/me/best_practice
+```Javascript
+function addFive(num) {
+  var total = num + 5;
+  return total;
+}
+```
