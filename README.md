@@ -37,3 +37,13 @@ https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/solutions/javascript/me/b
 function past(h, m, s){
   return 3600000 * h + 60000 * m + 1000 * s;
 }
+````
+## Find the Slope
+https://www.codewars.com/kata/55a75e2d0803fea18f00009d/solutions/javascript/me/best_practice
+```Javascript
+function slope(points){ 
+if ((points[0]-points[2]) !== 0){
+return ((points[1]-points[3])/(points[0]-points[2])).toFixed(0);;
+} else return 'undefined'; 
+}
+````
