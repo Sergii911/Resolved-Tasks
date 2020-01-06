@@ -94,3 +94,10 @@ function equal5(){
   return a%b;
 }
 ```
+## For Twins: 2. Math operations
+https://www.codewars.com/kata/59c287b16bddd291c700009a/solutions/javascript
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  return  (2 * Math.pow(radius, 2)) * (bottleLength - rimLength)
+}
+```
